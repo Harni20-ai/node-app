@@ -5,7 +5,7 @@ pipeline {
  
   stage('Clone') { 
    steps { 
-    git 'https://github.com/your-username/ci-node-app.git' 
+    git 'https://github.com/Harni20-ai/node-app.git' 
    } 
   } 
  
@@ -29,7 +29,7 @@ pipeline {
  
   stage('Build Docker Image') { 
    steps { 
-    bat 'docker build -t ci-node-app .' 
+    bat 'docker build -t 7 .' 
    } 
   } 
  
